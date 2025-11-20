@@ -1,9 +1,9 @@
 const Header = () => {
   return (
     <div className="header">
-      <div className="header-items">
+      <div className="layout-items">
         <div>logo</div>
-        <div className="menu">
+        <div className="header-menu">
           <div>Menu</div>
           <div>Menu</div>
           <div>Menu</div>

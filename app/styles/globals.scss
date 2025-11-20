@@ -1,25 +1,41 @@
 $primary-color: #18a0fb;
 $secondary-color: #6de4ea;
-$white: #ffffff;
 
-.header {
+.header,
+.footer {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.header-items {
+.footer {
+  height: 264px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  justify-content: center;
+}
+
+.layout-items {
   display: flex;
   width: 90%;
   height: 60px;
   justify-content: space-between;
   align-items: center;
-
-  .menu {
-    display: flex;
-    color: $primary-color;
-    gap: 4rem;
+  .copyright {
+    color: rgba(256, 256, 256, 0.8);
   }
+}
+
+.header-menu {
+  display: flex;
+  color: $primary-color;
+  gap: 4rem;
+}
+
+.footer-menu {
+  display: flex;
+  color: white;
+  gap: 4rem;
 }
 
 .search {
@@ -30,7 +46,7 @@ $white: #ffffff;
   height: 40px;
 
   div {
-    color: $white;
+    color: white;
     width: 77px;
     text-align: center;
   }
