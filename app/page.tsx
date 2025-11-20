@@ -1,11 +1,14 @@
-import Footer from "./_components/Layout/Footer";
-import Header from "./_components/Layout/Header";
+import PostCard from "./_components/common/PostCard";
 
 export default function Home() {
   return (
     <div>
-      <Header />
-      <Footer />
+      <div className="featured-post">
+        <div>Featured Posts</div>
+        <div>More →</div>
+      </div>
+      <PostCard />
+      <PostCard />
     </div>
   );
 }
