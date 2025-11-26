@@ -11,9 +11,9 @@ const Share = () => {
         <div>Share this</div>
 
         <div className="sns">
-          <Image src={facebook} alt="facebook" />
-          <Image src={twitter} alt="twitter" />
-          <Image src={instagram} alt="instagram" />
+          <Image src={facebook} alt="facebook" width={40} height={40} />
+          <Image src={twitter} alt="twitter" width={40} height={40} />
+          <Image src={instagram} alt="instagram" width={40} height={40} />
         </div>
       </div>
       <div className="tag-container">

@@ -5,7 +5,7 @@ const CommentItem = ({ comment }: { comment: { name: string; content: string } }
   return (
     <div className="comment-block">
       <div className="profile-area">
-        <Image src={profile} alt="profile" />
+        <Image src={profile} alt="profile" width={74} height={74} />
         <div>{comment.name}</div>
       </div>
 

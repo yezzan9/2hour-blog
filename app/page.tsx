@@ -9,7 +9,7 @@ export default function Home() {
         <div className="featured-post">Featured Posts</div>
         <div className="more">
           More
-          <Image src={arrow} alt="arrow" />
+          <Image src={arrow} alt="arrow" width={50} height={50} />
         </div>
       </div>
       <div className="align-card">
